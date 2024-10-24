@@ -25,7 +25,7 @@ To run the application locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/YouTranscribe.git
+   git clone https://github.com/samyakraka2908/YouTranscribe.git
    cd YouTranscribe
    ```
 
