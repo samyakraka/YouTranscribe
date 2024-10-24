@@ -1,5 +1,10 @@
 def main_app():
     st.title(f"Welcome, {st.session_state.username}!")
+    # Add a logout button
+    if st.sidebar.button("Logout"):
+        st.session_state.username = None  # Reset the username in session state
+        st.session_state.user_data = None  # Reset user data
+        st.experimental_rerun()  # Reload the app to go back to the login page
     st.sidebar.title("Navigation")
     page = st.sidebar.selectbox("Select a page", ["Translate Audio", "Summarize Audio", "Past Activities"])
 
