@@ -144,7 +144,7 @@ def login_page():
             st.session_state.username = username
             st.success("Login successful!")
             st.session_state.user_data = load_user_data(username)
-            st.experimental_rerun()
+            st.experimental_rerun
         else:
             st.error("Invalid credentials.")
     
