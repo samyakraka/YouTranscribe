@@ -189,7 +189,7 @@ def main_app():
     page = st.sidebar.selectbox("Select a page", ["Translate Audio", "Summarize Audio", "Past Activities"])
 
     if page == "Translate Audio":
-        st.subheader("YouTube Audio Language Translator")
+        st.subheader("YouTrancribe - Audio Translation")
 
         # Input for the YouTube link
         video_url = st.text_input("Enter YouTube Video URL:", key="video_url")
@@ -247,7 +247,7 @@ def main_app():
                     os.remove(audio_path)
 
     elif page == "Summarize Audio":
-        st.subheader("Audio Summarization")
+        st.subheader("YouTrancribe - Audio Summarization")
 
         # Input for the YouTube link
         video_url = st.text_input("Enter YouTube Video URL for Summarization:", key="video_summarize_url")
