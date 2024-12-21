@@ -43,6 +43,9 @@ To run the application locally:
 
 Contributions are welcome! Please feel free to open issues or submit pull requests to improve the functionality of YouTranscribe.
 
+![image](https://github.com/user-attachments/assets/74e8551b-a44e-4f13-b482-015c31a2906c)
+
+
 ### License
 
 This project is licensed under the MIT License.
